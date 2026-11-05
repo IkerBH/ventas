@@ -1,0 +1,11 @@
+#Abrir terminal
+#Alt+F12
+
+#Instalar tailwindcss
+npm install -D tailwindcss
+
+#Crear configuracion tailwind
+npx tailwindcss init
+
+#
+npx tailwindcss -i ./src/main/resources/input-tailwind.css -o ./src/main/resources/static/style.css --watch
